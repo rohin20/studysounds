@@ -12,8 +12,6 @@
 <body>
 
     <div class="title-section">
-        <h1>studysounds</h1>
-        <p class="subtitle">create the perfect study ambience</p>
         <button class="about-button">
             about
         </button>
@@ -21,28 +19,11 @@
 
     
     <div class="container">
-        <div class="todo-section">
-            <div class="todo-input">
-                <input type="text" id="taskInput" placeholder="add a task">
-                <button id="addTask">+</button>
-            </div>
-            <div class="todo-lists">
-                <div class="todo-list">
-                    <h3>to do</h3>
-                    <ul id="pendingTasks"></ul>
-                </div>
-            </div>
-        </div>
-
-        <div class="image-section">
-            <img src="assets/background.jpg" alt="illustration">
-        </div>
-        
         <div class="controls-section">
             <div class="sound-control">
                 <button class="play-button" id="rainButton">▶</button>
                 <div class="slider-container">
-                    <p class="sound-label">rain</p>
+                    <p class="sound-label" id="rainButton">rain</p>
                     <input type="range" id="rainVolume" min="0" max="1" step="0.01" value="0.5">
                 </div>
             </div>
@@ -84,7 +65,7 @@
         <div class="popup-content">
             <button id="closePopup" class="close-btn">×</button>
             <h2>about</h2>
-            <p>the best sounds for focus in one place</p>
+            <p>some cool sounds for studying</p>
             <p>
                 contact: rohinphukan@gmail.com
             </p>
@@ -93,6 +74,5 @@
 
     <script src="script.js"></script>
 
-    <script src="script.js"></script>
 </body>
 </html>
